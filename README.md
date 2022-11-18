@@ -1,4 +1,4 @@
-# ACA Git Workflow 
+# Minority Africa Git Workflow 
 
 <https://guides.github.com/introduction/flow/>
 
