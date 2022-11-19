@@ -2,7 +2,7 @@
 
 ## High Level Instructions
 - You are to build a REst API for the Minority Africa Advance Platform (Not the Rest of it Ofcourse)
-- ** Start off by forking this exact same Repo **
+- **Start off by forking this exact same Repo**
 - Build 10 endpoints that you will deem important! aka That are likely to impress us.
 - Checkout the pitch deck attached in this repo to read more on the Advance platform. 
 - On your backend, We prefer that you use the MERN stack (MongoDB, Express, React, Nodejs) and ofcourse do not use React, No need to build any frontend.
