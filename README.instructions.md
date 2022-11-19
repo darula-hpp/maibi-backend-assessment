@@ -8,11 +8,11 @@
 - On your backend, We prefer that you use the MERN stack (MongoDB, Express, React, Nodejs) and ofcourse do not use React, No need to build any frontend.
 - We would prefer Typescript as your main programming language in the backend, However if that is steep you can resort to Javascript.
 - A starter template is already setup but you can always edit it for the better
-- ** You do not need to build any frontend **
+- **You do not need to build any frontend**
 - Well document your API with a tool like Swagger [https://swagger.io](https://swagger.io)
 - The features of Advance platform are in the below section `What the Advance Does'
 - Setup a free MongoDB account to use if you don't already [https://www.mongodb.com](https://www.mongodb.com) so that you can setup a cloud database.
-- Create a clear database schema on a tool like Lucid [https://lucid.app](https://lucid.app) or similar, ** only the parts that will support your 10 endpoints. **
+- Create a clear database schema on a tool like Lucid [https://lucid.app](https://lucid.app) or similar, **only the parts that will support your 10 endpoints.**
 - Your API should be callable from Swagger or whichever API documentation tool you are using.
 - Be able to account for the design decisions that you took.
 - Deploy your application to either Heroku, Microsoft Assure, or one of the AWS services
@@ -36,4 +36,4 @@ which is build in Wordpress
 
 ## Submission Instruction
 - Share the Github Link and your deployed application link with mbedzi.olebogeng@minorityafrica.org and shameer.ramdin@minorityafrica.org then email to the same people. Make sure your Github repo is public.
-- ** NB, Applications on Localhost will not be considered **
+- **NB, Applications on Localhost will not be considered**
