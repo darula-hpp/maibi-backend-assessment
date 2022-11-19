@@ -5,7 +5,7 @@
 - **Start off by forking this exact same Repo**
 - Build 10 endpoints that you will deem important! aka That are likely to impress us.
 - Checkout the pitch deck attached in this repo to read more on the Advance platform. 
-- On your backend, We prefer that you use the MERN stack (MongoDB, Express, React, Nodejs) and ofcourse do not use React, No need to build any frontend.
+- On your backend, We prefer that you use the MERN stack (MongoDB, Express, React, Nodejs) and ofcourse do not use React, **No need to build any frontend**.
 - We would prefer Typescript as your main programming language in the backend, However if that is steep you can resort to Javascript.
 - A starter template is already setup but you can always edit it for the better
 - **You do not need to build any frontend**
