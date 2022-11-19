@@ -16,7 +16,7 @@
 - Your API should be callable from Swagger or whichever API documentation tool you are using.
 - Be able to account for the design decisions that you took.
 - Deploy your application to either Heroku, Microsoft Assure, or one of the AWS services
-- We prefer you to have a CI/CD pipeline. You can checkout the README.instructions.md of this repo on a CI/CD pipeline [https://github.com/Minority-Africa/front-end-dev-assessment](https://github.com/Minority-Africa/front-end-dev-assessment), also you are provided with a CircleCi one on this repo if you want to use that
+- The application must have a CI/CD pipeline. You can checkout the README.instructions.md of this repo on a CI/CD pipeline [https://github.com/Minority-Africa/front-end-dev-assessment/blob/main/README.instructions.md](https://github.com/Minority-Africa/front-end-dev-assessment), also you are provided with a CircleCi one on this repo if you want to use that
 
 ## What the Advance Does
 1. The Advance platform is a self hosted web application that allows users (news
