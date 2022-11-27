@@ -97,7 +97,7 @@
 *   name: Stories
 *   description: API to manage all posted stories.(all endpoints are protected, authorize by token you get from login)
 */
-
+//user end points
 /**
 * @swagger
 * /user/register/:
@@ -202,7 +202,7 @@
 *         "200":
 *           description: Succefully retrieved all users.     
 */
-
+//story endpoints
 /**
 * @swagger
 * /story/post/:
