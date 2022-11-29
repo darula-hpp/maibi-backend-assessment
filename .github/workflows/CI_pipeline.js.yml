@@ -21,26 +21,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run: dir
-    - run: npm install
-    - name: Setup node
-      uses: actions/setup-node@v3
-      with:
-        node-version: 16.18.1
-        cache: 'npm'
-        cache-dependency-path: '**/**/package-lock.json'
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
-    - name: Add remote origin
-    - uses: actions/checkout@v3
     - uses: akhileshns/heroku-deploy@v3.12.12
       with:
         branch: "main"
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
         heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
         heroku_email: "thabomaibi1999@gmail.com"
-    - run: git push heroku main
     # - name: Deploy on heroku
     #   run:  git push heroku main
     #   run: git remote add heroku https://heroku:${{ secrets.HEROKU_API_KEY }}@git.heroku.com/${{ secrets.HEROKU_APP_NAME }}.git
