@@ -34,9 +34,6 @@ jobs:
     - run: npm test
     - name: Add remote origin
       if: github.ref == 'ref/heads/main' && job.status == 'success'
-    - name: Deploy to Heroku
-      uses: ThaboMaibi/heroku-deploy@v3.12.12
-      with:
-        heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-        heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
-        heroku_email: 'thabomaibi1999@gmail.com'
+      run: git remote add heroku https://heroku:${{ secrets.HEROKU_API_KEY }}@git.heroku.com/${{ secrets.HEROKU_APP_NAME }}.git
+    - name: Deploy to heroku
+      run: git push heroku HEAD:main -f
