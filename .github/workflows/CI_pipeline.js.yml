@@ -37,4 +37,4 @@ jobs:
     - name: Clone repo
       run: heroku git:clone -a ${{ secrets.HEROKU_APP_NAME }}
     - name: Deploy to heroku
-      run: git push heroku main --all  
+      run: git push heroku main 
