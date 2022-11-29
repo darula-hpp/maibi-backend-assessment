@@ -33,8 +33,16 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
     - name: Add remote origin
-      run: git remote add heroku https://heroku:${{ secrets.HEROKU_API_KEY }}@git.heroku.com/${{ secrets.HEROKU_APP_NAME }}.git
-    - name: Clone repo
-      run: heroku git:clone -a ${{ secrets.HEROKU_APP_NAME }}
-    - name: Deploy to heroku
-      run: git push heroku main 
+    - uses: akhileshns/heroku-deploy@v3.12.12
+      with:
+        branch: "main"
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
+        heroku_email: "thabomaibi1999@gmail.com"
+    - name: Deploy on heroku
+      run:  git push heroku main
+    #   run: git remote add heroku https://heroku:${{ secrets.HEROKU_API_KEY }}@git.heroku.com/${{ secrets.HEROKU_APP_NAME }}.git
+    # - name: Clone repo
+    #   run: heroku git:clone -a ${{ secrets.HEROKU_APP_NAME }}
+    # - name: Deploy to heroku
+    #   run: git push heroku main 
