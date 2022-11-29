@@ -35,8 +35,8 @@ jobs:
     - name: Add remote origin
       if: github.ref == 'ref/heads/main' && job.status == 'success'
     - name: Deploy to Heroku
-        uses: ThaboMaibi/heroku-deploy@v3.12.12
-        with:
-          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-          heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
-          heroku_email: 'thabomaibi1999@gmail.com'
+      uses: ThaboMaibi/heroku-deploy@v3.12.12
+      with:
+        heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+        heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
+        heroku_email: 'thabomaibi1999@gmail.com'
