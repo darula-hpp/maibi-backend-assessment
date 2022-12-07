@@ -15,7 +15,7 @@
 - Create a clear database schema on a tool like Lucid [https://lucid.app](https://lucid.app) or similar, **only the parts that will support your 10 endpoints.**
 - Your API should be callable from Swagger or whichever API documentation tool you are using.
 - Be able to account for the design decisions that you took.
-- Deploy your application to either Heroku, Ntlify, Microsoft Assure, or one of the AWS services
+- Deploy your application to either Heroku, Netlify, Microsoft Assure, or one of the AWS services
 - The application must have a CI/CD pipeline. You can checkout the README.instructions.md of this repo on a CI/CD pipeline [https://github.com/Minority-Africa/front-end-dev-assessment/blob/main/README.instructions.md](https://github.com/Minority-Africa/front-end-dev-assessment), also you are provided with a CircleCi one on this repo if you want to use that
 
 ## What the Advance Does
